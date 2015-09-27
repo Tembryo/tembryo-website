@@ -6,7 +6,7 @@ docker commands:
 
 run:
 
-    sudo docker run --name tembryo-web -d -e VIRTUAL_HOST="tembryo.com,www.tembryo.com" -v ./src:/var/www --expose=80 tembryo-webserver
+    sudo docker run --name tembryo-web -d -e VIRTUAL_HOST="tembryo.com,www.tembryo.com" -v /usr/local/tembryo-website/src:/var/www --expose=80 tembryo-webserver
 
 ## template code
 
