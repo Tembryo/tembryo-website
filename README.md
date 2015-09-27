@@ -1,8 +1,12 @@
 # tembryo-website
 
-docker starting command:
+docker commands:
 
-    sudo docker run --name tembryo-web -d -e VIRTUAL_HOST="tembryo.com,www.tembryo.com" -v ./src:/var/www --expose=80 tembryo-website
+	sudo docker build -t tembryo-webserver .
+
+run:
+
+    sudo docker run --name tembryo-web -d -e VIRTUAL_HOST="tembryo.com,www.tembryo.com" -v ./src:/var/www --expose=80 tembryo-webserver
 
 ## template code
 
