@@ -13,7 +13,17 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body h1
+{
+    color: #111;
+    text-transform: uppercase;
+}
+body h2
+{
+    color: #666;
+    text-transform: uppercase;
 }
 
 .text-vertical-center {
@@ -154,42 +164,48 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    margin: 30px 0px 30px 0px;
+    /*height: 20%;
     background: url(../img/background-duality.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+}
+
+/* Products */
+
+#products {
+    margin: 0px 0px 20px 0px;
+}
+
+.product {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.img-product{
+    height: 200px
 }
 
 /* Team */
 
 #team {
-	padding: 30px 0px;
-}
-
-#team h2 {
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #666;
+    margin: 0px 0px 20px 0px;
 }
 
 .profile {
 	max-width: 300px;
-	margin: 60px auto;
+	margin: 20px auto;
 }
 
 .profile-name {
 	display: block;
-	font-family: 'Lato', sans-serif;
 	font-size: 24px;
 	margin-top: 12px;
 }
 
 .profile-detail {
-	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	margin-top: 8px;
 	margin-bottom: 15px;
@@ -204,5 +220,5 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }

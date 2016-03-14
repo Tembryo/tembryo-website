@@ -1,0 +1,8 @@
+tembryo-website:
+  build: .
+  expose:
+    - "80"
+  volumes:
+    - /usr/local/tembryo-website/src:/var/www
+  environment:
+    VIRTUAL_HOST: "tembryo.com,www.tembryo.com"
